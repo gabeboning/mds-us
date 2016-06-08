@@ -1,3 +1,1 @@
-Dead simple starter for static sites/just coding out comps.
-
-Compiles /sass contents into styles.css. 
+MDS scaling on city distances to show you how you mentally see the US
