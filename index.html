@@ -14,13 +14,14 @@
 </head>
 <body>
   <div ng-controller="InputCtrl">
-    <div ng-repeat="pair in cityPairs">
-      <h2>How far is it from {{ pair.cities[0] }} to {{ pair.cities[1] }}</h2>
-      <h3><span>{{ pair.distance }}</span> miles</h3>
-      <input type="range" ng-model="pair.distance">
+    <h1>How far is it between...</h1>
+    <div class="city-input" ng-repeat="pair in cityPairs">
+      <h2>{{ pair.cities[0] }} and {{ pair.cities[1] }}</h2>
+      <h3><span><input type="num" ng-model="pair.distance"></span> miles</h3>
+      <input type="range" max="3000" ng-model="pair.distance">
     </div>
     
-    <button ng-click="done()">I'm done</button>
+    <button ng-click="done()">Show me da map</button>
     
     <div class="cities">
       
