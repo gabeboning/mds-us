@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica; }
+
+.cities path {
+  stroke: black;
+  fill: none;
+  stroke-width: 1px; }
+.cities text {
+  fill: rgba(0, 0, 0, 0.9);
+  font-size: 11px; }
+.cities .axis text {
+  font-size: 10px;
+  fill: black; }

@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Dead simple starter for static sites/just coding out comps.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabeboning/Boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabeboning/Boilerplate/issues"
+  },
+  "homepage": "https://github.com/gabeboning/Boilerplate#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-watch": "^4.3.5"
+  }
+}
